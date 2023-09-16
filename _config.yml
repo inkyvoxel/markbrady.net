@@ -1,0 +1,13 @@
+title: Mark Brady
+tagline: A personal website about software engineering.
+description: A London based software engineer who loves DevOps culture, cyber security, and working in highly collaborative teams.
+baseurl: ""
+url: "https://www.markbrady.net"
+permalink: /blog/:title
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
