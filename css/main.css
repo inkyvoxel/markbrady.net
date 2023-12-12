@@ -104,5 +104,5 @@ main {
 .home {
     display: inline-block;
     animation: funky 2s infinite;
-    font-size: 20rem;
+    font-size: 5rem;
 }
