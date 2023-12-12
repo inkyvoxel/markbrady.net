@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mark Brady | Software engineer, team lead and cyber security enthusiast">
+    <title>Mark Brady | Software engineer, team lead and cyber security enthusiast</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            width: 90%;
+            max-width: 800px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 1rem;
+            }
+
+            header,
+            main,
+            footer {
+                width: 90%;
+            }
+        }
+
+        @keyframes wave {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: rotate(-15deg);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: rotate(15deg);
+            }
+        }
+
+        .wave {
+            display: inline-block;
+            animation: wave 3s infinite;
+        }
+    </style>
+    <script defer data-domain="markbrady.net" src="https://plausible.io/js/plausible.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hey, I am Mark Brady! <span class="wave">👋</span></h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About me</h2>
+            <p>
+                I am a London based software engineer who loves building web applications
+                in highly collaborative teams.
+            </p>
+            <p>
+                I have over a decade of experience building full-stack web applications.
+                My expertise centers on using the .NET stack in cloud hosting,
+                but I always embrace the opportunity to try new technologies.
+            </p>
+            <p>
+                In addition to building web applications, I have a particular passion for:
+            </p>
+            <ul>
+                <li>Automating boring tasks</li>
+                <li>Building cloud infrastructure as code</li>
+                <li>Finding, exploiting and securing software vulnerabilities</li>
+                <li>Leading and empowering engineering teams</li>
+            </ul>
+            <p>
+                I write about software engineering, cyber security and leadership
+                on <a href="https://www.inkyvoxel.com" target="_blank">inkyvoxel.com</a>.
+            </p>
+            <p>
+                Content and opinions on this website are my own.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mark Brady. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
