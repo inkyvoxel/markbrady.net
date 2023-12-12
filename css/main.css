@@ -8,8 +8,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    color: black;
 }
 
 main {
@@ -61,5 +59,22 @@ main {
     body {
         background-color: black;
         color: white;
+    }
+
+    a:link,
+    a:visited {
+        color: lightblue;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    a:link,
+    a:visited {
+        color: darkblue;
     }
 }
