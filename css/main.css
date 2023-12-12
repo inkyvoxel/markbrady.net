@@ -8,6 +8,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    color: black;
 }
 
 main {
@@ -53,4 +55,11 @@ main {
 .wave {
     display: inline-block;
     animation: wave 3s infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
 }
