@@ -2,7 +2,7 @@
   for = "/*"
 
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; object-src 'none'; script-src 'self' plausible.io; connect-src 'self' plausible.io;"
+    Content-Security-Policy = "default-src 'self'; style-src 'self'; object-src 'none'; script-src 'self' plausible.io; connect-src 'self' plausible.io;"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
