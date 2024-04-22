@@ -15,6 +15,8 @@ In addition to building web applications, I have a particular passion for:
 - Finding, exploiting and securing software vulnerabilities
 - Leading and empowering engineering teams
 
-I write about software engineering, cybersecurity and leadership on [inkyvoxel.com](https://www.inkyvoxel.com). You can also find me on [Mastodon](https://mastodon.social/@inkyvoxel) and [GitHub](https://github.com/inkyvoxel).
+I write about software engineering, cybersecurity and leadership on [inkyvoxel.com](https://www.inkyvoxel.com).
+
+You can also find me on [Mastodon](https://mastodon.social/@inkyvoxel) and [GitHub](https://github.com/inkyvoxel).
 
 Content and opinions on this website are my own.
