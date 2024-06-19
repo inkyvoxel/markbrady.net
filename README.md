@@ -1,6 +1,6 @@
 # markbrady.net
 
-My personal website.
+A simple website, created with [Eleventy](https://www.11ty.dev/).
 
 Run locally with:
 
