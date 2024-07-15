@@ -10,6 +10,7 @@ I am a London based software engineer who loves building web applications in hig
 I have over 15 years of experience building full-stack web applications. My expertise centres on using the .NET stack in cloud environments, but I always embrace the opportunity to try new technologies.
 
 In addition to building web applications, I have a particular passion for:
+
 - Automating boring tasks
 - Building cloud infrastructure as code
 - Finding, exploiting and securing software vulnerabilities
