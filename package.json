@@ -12,6 +12,6 @@
   "author": "Mark Brady <hello@inkyvoxel.com> (https://www.inkyvoxel.com)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0-alpha.14"
+    "@11ty/eleventy": "v3.0.0-beta.1"
   }
 }
