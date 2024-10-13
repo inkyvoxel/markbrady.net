@@ -18,6 +18,6 @@ In addition to building web applications, I have a particular passion for:
 
 I write about various topics on [inkyvoxel.com](https://www.inkyvoxel.com), including software engineering, cybersecurity, and leadership.
 
-You can also find me on [Mastodon](https://mastodon.social/@inkyvoxel) and [GitHub](https://github.com/inkyvoxel).
+You can also find me on [LinkedIn](https://www.linkedin.com/in/m7y), [Mastodon](https://mastodon.social/@inkyvoxel) and [GitHub](https://github.com/inkyvoxel).
 
 Content and opinions on this website are my own.
