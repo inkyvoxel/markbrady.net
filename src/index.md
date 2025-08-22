@@ -15,9 +15,10 @@ In addition to building web applications, I have a particular passion for:
 - Building cloud infrastructure as code
 - Finding, exploiting and securing software vulnerabilities
 - Leading and empowering engineering teams
+- Boosting productivity with LLMs
 
 I write about various topics on [inkyvoxel.com](https://www.inkyvoxel.com), including software engineering, cybersecurity, and leadership.
 
-You can also find me on [LinkedIn](https://www.linkedin.com/in/m7y) and [GitHub](https://github.com/inkyvoxel).
+You can also find me on [X](https://x.com/inkyvoxel), [GitHub](https://github.com/inkyvoxel), and [LinkedIn](https://www.linkedin.com/in/m7y).
 
 Content and opinions on this website are my own.
