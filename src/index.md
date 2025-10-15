@@ -17,7 +17,7 @@ In addition to building web applications, I have a particular passion for:
 - Leading and empowering engineering teams
 - Boosting productivity with LLMs
 
-I write about various topics on [inkyvoxel.com](https://www.inkyvoxel.com), including software engineering, cybersecurity, and leadership.
+I write about various topics on [inkyvoxel.com](https://www.inkyvoxel.com?ref=markbrady.net), including software engineering, cybersecurity, and leadership.
 
 You can also find me on [X](https://x.com/inkyvoxel), [GitHub](https://github.com/inkyvoxel), and [LinkedIn](https://www.linkedin.com/in/m7y).
 
