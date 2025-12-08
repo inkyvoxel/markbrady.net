@@ -1,6 +1,6 @@
 ---
 title: Hey, I am Mark Brady! <span class="wave">👋</span>
-layout: layout.html
+layout: layout.liquid
 ---
 
 ## About me
