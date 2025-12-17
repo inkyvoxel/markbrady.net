@@ -50,7 +50,6 @@ npx @biomejs/biome check --write .
 - CSS animations for `.wave` (waving hand) and `.home` (funky house emoji)
 
 ### Analytics & SEO
-- Umami analytics script in layout (deferred)
 - Canonical URLs: homepage for 404, `page.url` for all others
 - SVG favicon (burger emoji) as data URI
 - Sitemap generated via `sitemap.liquid` iterating `collections.all`
