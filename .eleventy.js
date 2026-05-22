@@ -6,6 +6,7 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "/robots.txt" });
+	eleventyConfig.addPassthroughCopy({ "./src/_headers": "_headers" });
 
 	return {
 		dir: {
