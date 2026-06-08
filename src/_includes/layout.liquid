@@ -3,14 +3,55 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mark Brady | Software engineer and cybersecurity enthusiast">
+    {% assign metaTitle = pageTitle | default: "Mark Brady | Software engineer and cybersecurity enthusiast" %}
+    {% assign metaDescription = description | default: "Mark Brady | Software engineer and cybersecurity enthusiast" %}
+    {% if page.url == '/404.html' %}
+      {% assign canonicalUrl = "https://www.markbrady.net/" %}
+    {% else %}
+      {% assign canonicalUrl = "https://www.markbrady.net" | append: page.url %}
+    {% endif %}
+    <meta name="description" content="{{ metaDescription }}">
     <meta name="author" content="Mark Brady">
     <meta name="generator" content="Eleventy">
-    <title>Mark Brady | Software engineer and cybersecurity enthusiast</title>
-    {% if page.url == '/404.html' %}
-      <link rel="canonical" href="https://www.markbrady.net/">
-    {% else %}
-      <link rel="canonical" href="https://www.markbrady.net{{ page.url | url }}">
+    <title>{{ metaTitle }}</title>
+    <link rel="canonical" href="{{ canonicalUrl }}">
+
+    <meta property="og:type" content="{% if page.url == '/cv/' %}profile{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ metaTitle }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:url" content="{{ canonicalUrl }}">
+    <meta property="og:site_name" content="Mark Brady">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ metaTitle }}">
+    <meta name="twitter:description" content="{{ metaDescription }}">
+
+    {% if page.url == '/cv/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mark Brady",
+      "jobTitle": "Principal Engineer — Platform & DevSecOps",
+      "url": "https://www.markbrady.net/",
+      "email": "hello@markbrady.net",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Sheffield Hallam University"
+      },
+      "knowsAbout": ["C#", ".NET", "Terraform", "Azure", "AWS", "Cloudflare", "Docker", "CI/CD", "Web application security", "DevSecOps"],
+      "sameAs": [
+        "https://www.inkyvoxel.com",
+        "https://github.com/inkyvoxel",
+        "https://www.linkedin.com/in/m7y",
+        "https://x.com/inkyvoxel"
+      ]
+    }
+    </script>
     {% endif %}
     <link
       rel="icon"
@@ -181,7 +222,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 MARK BRADY. ALL RIGHTS RESERVED.</p>
+      <p>&copy; 2026 MARK BRADY. ALL RIGHTS RESERVED.</p>
     </footer>
   </body>
 </html>

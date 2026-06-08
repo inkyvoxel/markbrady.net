@@ -1,5 +1,7 @@
 ---
 title: Hey, I am Mark Brady! <span class="wave">👋</span>
+pageTitle: "Mark Brady | Software engineer and cybersecurity enthusiast"
+description: "Mark Brady is a London-based software engineer with 15+ years building full-stack web applications, cloud infrastructure as code and a passion for cybersecurity."
 layout: layout.liquid
 ---
 

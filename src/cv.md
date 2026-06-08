@@ -1,5 +1,7 @@
 ---
 title: Mark Brady
+pageTitle: "Mark Brady — CV | Principal Engineer (Platform & DevSecOps)"
+description: "CV of Mark Brady, a London-based Principal Engineer specialising in platform engineering, DevSecOps, infrastructure as code and application security across Azure and AWS."
 layout: layout.liquid
 permalink: /cv/
 ---
