@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mark Brady | Software engineer, team lead and cybersecurity enthusiast">
+    <meta name="description" content="Mark Brady | Software engineer and cybersecurity enthusiast">
     <meta name="author" content="Mark Brady">
     <meta name="generator" content="Eleventy">
-    <title>Mark Brady | Software engineer, team lead and cybersecurity enthusiast</title>
+    <title>Mark Brady | Software engineer and cybersecurity enthusiast</title>
     {% if page.url == '/404.html' %}
       <link rel="canonical" href="https://www.markbrady.net/">
     {% else %}
@@ -73,6 +73,44 @@
         a:link,
         a:visited {
           color: darkblue;
+        }
+      }
+
+      @media print {
+        body {
+          display: block;
+          background-color: white;
+          color: black;
+          font-size: 11pt;
+          line-height: 1.2;
+        }
+
+        header,
+        main,
+        footer {
+          width: 100%;
+          max-width: none;
+        }
+
+        a:link,
+        a:visited {
+          color: black;
+        }
+
+        main a[href^="http"]::after {
+          content: " (" attr(href) ")";
+          font-size: 0.9em;
+          word-break: break-all;
+        }
+
+        footer,
+        .no-print {
+          display: none;
+        }
+
+        .wave,
+        .home {
+          animation: none;
         }
       }
 
