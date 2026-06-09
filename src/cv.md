@@ -24,7 +24,7 @@ May 2018 to Present
 
 **Principal Engineer** (2026 to present)
 
-- Took on platform work across the Not-for-Profit and Education divisions (roughly 10 teams) with widely varying infrastructure maturity, ranging from teams that could build applications but had no way to deploy them, to others running ageing, hand-rolled setups in need of modernising.
+- Drove platform modernisation for ~10 teams across the Not-for-Profit and Education divisions, spanning a wide range of infrastructure maturity — from teams with no deployment path to others running ageing, hand-rolled setups.
 - Built a centralised, multi-provider Terraform repository (Azure, Cloudflare, Microsoft Fabric) with guidelines, linting and approval gates, giving these teams self-service infrastructure and deployments through a governed Azure DevOps pipeline. Live for four product teams, with more being onboarded.
 - Integrated new cloud applications with legacy on-prem systems, working alongside Operations teams so modern apps can reach existing on-prem SQL databases.
 - Championed adoption of AI engineering tooling across the division, setting usage guidelines and folding it into governed workflows.
